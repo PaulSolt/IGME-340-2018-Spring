@@ -3,4 +3,4 @@
 You will learn how to create iPhone apps in this project based course.
 
 * [Syllabus]()
-* [Course Schedule]()
+* [Course Schedule](Outline - Multiplatform Media App Dev - IGME-340.md)
