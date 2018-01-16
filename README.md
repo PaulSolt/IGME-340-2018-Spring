@@ -2,5 +2,5 @@
 
 You will learn how to create iPhone apps in this project based course.
 
-[Syllabus]()
-[Course Schedule]()
+* [Syllabus]()
+* [Course Schedule]()
