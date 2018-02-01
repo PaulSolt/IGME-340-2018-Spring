@@ -103,7 +103,7 @@ Many of you already have access to an iOS device. For the others we have a selec
 
 * 10 IST Macs are available in the IST Open Lab GOL-2670 - they are currently running Xcode 9.2
 * GOL-2025 is equipped with Mac Minis running the latest version of Xcode. This lab is open from Noon-Midnight most days.
-* GOL-2550 (the "quiet lab") has 2 fairly old and slow iMacs running the latest version of Xcode. If you use these Macs I strongly recommend installing apps to an actual iOS device instead of trying to use the iOS simulator.
+* GOL-2350 (the "quiet lab") has 2 fairly old and slow iMacs running the latest version of Xcode. If you use these Macs I strongly recommend installing apps to an actual iOS device instead of trying to use the iOS simulator.
 * Wallace Library has iMacs for use, and Mac laptops to sign out - they are currently running Xcode 8.2
 
 * You may wish to install Xcode on your own Apple computer. A newer Mac is required to run Xcode 9.2.
