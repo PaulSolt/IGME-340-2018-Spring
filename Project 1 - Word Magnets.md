@@ -7,12 +7,12 @@ Goal: To build a Magnetic Poetry App.
 1. Each partner individually completes the Dr Magneto Exercise and posts it to mycourses (due Wednesday 2/5)
 2. Get a partner and submit your names to the instructor. (due start of class, Thursday 2/8)
 3. Your Xcode project must compile without errors to get credit for each checkout, otherwise you will receive a 0 for the checkpoint.
-	4. Double check your .zip submissions to make sure no files are missing in Xcode (Hint: use a separate machine to verify)
+	1. Double check your .zip submissions to make sure no files are missing in Xcode (Hint: use a separate machine to verify)
 5. All work must be posted on a Github
-	6. Regular commits with descriptive comments (-2% if not done)
-	7. Post names on all source files (-2% if not done)
-	8. Create a README.md with images describing the app for each checkpoint (-2% if not done)
-	9. Add comments for any code samples you found online (-2% if not done, copying another student's work result in an F for the course)
+	1. Regular commits with descriptive comments (-2% if not done)
+	2. Post names on all source files (-2% if not done)
+	3. Create a README.md with images describing the app for each checkpoint (-2% if not done)
+	4. Add comments for any code samples you found online (-2% if not done, copying another student's work result in an F for the course)
 
 ### Required App Features for Checkpoint #1 (due Monday night 2/12):
 
