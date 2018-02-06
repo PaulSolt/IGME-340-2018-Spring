@@ -23,14 +23,14 @@ Goal: To build a Magnetic Poetry App.
 5. The app will start up with a set of related words on the screen - see MyCourses for word sets, or come up with your own. (-2% if not done)
 6. The words are draggable. (-2% if not done)
 7. At startup, the word magnets will be neatly grouped near the top of the screen. 
-	8. Write code that places the magnets in rows, and puts space between words and the rows. 
-	9. To do this you will need to access the width and height of the magnets (labels) so that you know how tall to make your rows, and when you've run out of room on a row. All word labels will have exactly the same height which is label.frame.size.height, and differing widths which is label.frame.size.width (-3% if not done) 
+	1. Write code that places the magnets in rows, and puts space between words and the rows. 
+	2. To do this you will need to access the width and height of the magnets (labels) so that you know how tall to make your rows, and when you've run out of room on a row. All word labels will have exactly the same height which is label.frame.size.height, and differing widths which is label.frame.size.width (-3% if not done) 
 	10. Tip: This might be a little tricky for you. Both partners should first attempt to do this by themselves. Ideally if you both get it working, you can submit the "best" solution.
 8. The Dr Magneto word magnets are too small, especially the ones with a single character. Make them bigger (-3% if not done)
-	9. Apple recommends a minimum touch target size of 40x40 points.
-	9. Solution A: Add a space to both of the ends of each label's text, then center align the text in the label. 
-	10. Solution B: Adjust the label inset
-	11. Solution C: Use attributed text (more options to control spacing)
+	1. Apple recommends a minimum touch target size of 40x40 points.
+	2. Solution A: Add a space to both of the ends of each label's text, then center align the text in the label. 
+	3. Solution B: Adjust the label inset
+	4. Solution C: Use attributed text (more options to control spacing)
 9. The app has a custom App icon - designed and created by you - for all iPad and iPhone sizes. [Here is a tutorial on how to create an app icon.](https://designmodo.com/ios-app-icon-photoshop/)If you already have an image file you think could work as your icon (at least 1024x1024 pixels ideally), services like <http://appicon.build> will generate all of the required icon sizes for you.(-3% if not done)
 10. Create a start up screen (on LaunchScreen.storyboard) that has the name of your app and your team members on it. Use an image (drag out a UIImageView), use auto-resizing or auto-layout to position it, and make sure it looks good on both iPhone and iPad. (-3% if not done)
 11. BOTH partners bring the app to class installed on their iOS hardware (-3% if not done)
@@ -57,7 +57,7 @@ Goal: To build a Magnetic Poetry App.
 6. The user can choose a poetry background image from their Photo Library with the `UIImagePickerController` class.
 7. The app meets all requirements of checkpoints #1 and #2 (-5% per requirement not met)
 8. Because multiple view controllers will depend on the same data, you should have a model class that manages/contains your application data.
-	9. Use dependency injection and do not make this a strict singleton
+	1. Use dependency injection and do not make this a strict singleton
 
 9. Code Conventions: see the [Swift Style Guide](https://github.com/SuperEasyApps/swift-style-guide)
 	1. Class names are capitalized, instance variables begin in lowercase (-1 per incidence)
