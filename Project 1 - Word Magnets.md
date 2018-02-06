@@ -4,7 +4,7 @@ Goal: To build a Magnetic Poetry App.
 
 ## Requirements ##
 
-1. Each partner individually completes the Dr Magneto Exercise and posts it to mycourses (due Wednesday 2/5)
+1. Each partner individually completes the Dr Magneto Exercise and posts it to mycourses (due Monday 2/5)
 2. Get a partner and submit your names to the instructor. (due start of class, Thursday 2/8)
 3. Your Xcode project must compile without errors to get credit for each checkout, otherwise you will receive a 0 for the checkpoint.
 	1. Double check your .zip submissions to make sure no files are missing in Xcode (Hint: use a separate machine to verify)
