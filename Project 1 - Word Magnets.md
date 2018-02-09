@@ -13,6 +13,7 @@ Goal: To build a Magnetic Poetry App.
 	2. Post names on all source files (-2% if not done)
 	3. Create a README.md with images describing the app for each checkpoint (-2% if not done)
 	4. Add comments for any code samples you found online (-2% if not done, copying another student's work result in an F for the course)
+	5. Using [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) to manage feature changes and branches is recommended, but not required for teams.
 
 ### Required App Features for Checkpoint #1 (due Monday night 2/12):
 
@@ -85,6 +86,11 @@ Doing all of the above gets an 85% - to get a higher grade you need to go "above
 7. UI Animation - go back and look at Hello RIT-2
 8. If the app force-quits, the user's last poem should be preserved, the previous background image will be restored, and all of the word magnets should be in the same location.
 ... you decide!!! ...
+
+### Tools ###
+
+* [IconKit - macOS](https://itunes.apple.com/us/app/iconkit-the-icon-resizer/id507135296?mt=12)
+* [Icon Set Creator - macOS](https://itunes.apple.com/us/app/icon-set-creator/id939343785?mt=12)
 
 ### Handy Links
 
