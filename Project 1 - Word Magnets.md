@@ -47,7 +47,7 @@ Goal: To build a Magnetic Poetry App.
 7. Make sure you still meet all of the checkpoint #1 requirements (-1 per requirement not met)
 
 
-### Required Final App Features (Due Sunday Night 2/26) - No Late Submissions Will Be Accepted - Bring to Class on Your Device the Next Day: ###
+### Required Final App Features (Due Monday Night 2/26) - No Late Submissions Will Be Accepted - Bring to Class on Your Device the Next Day: ###
 
 1. The app should by now been thoroughly tested on iOS hardware:
 	1.The app should display properly on either landscape or portrait orientation, and on both iPhone and iPad. I recommend choosing one orientation for the app, either portrait or landscape, and making that the sole orientation of the app.
