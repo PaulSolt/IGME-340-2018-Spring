@@ -107,7 +107,7 @@ Put together the primary navigation of the App in Storyboard, and find at least 
 
 ## CheckPoints
 
-1. Team member name(s), idea, and proposal due start of class Tuesday 4/5 (week 11) - post to mycourses dropbox. 15% deduction from final project 3 grade if not done.
+1. Team member name(s), idea, and proposal due start of class Thursday 4/5 (week 11) - post to mycourses dropbox. 15% deduction from final project 3 grade if not done.
 2. Working Prototype #1 due start of class Tuesday 4/10 (week 12) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% of off your final project 3 grade if not done.
 3. Working Prototype #2 due start of class Tuesday 4/17 (week 13) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% deduction from final project 3 grade if not done.
 4. Final Version Due Finals Week during the scheduled final exam time (Thursday) - post to mycourses dropbox with your documentation * install on iOS hardware and bring to class. Late submissions will not be accepted.
