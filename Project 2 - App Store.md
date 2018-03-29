@@ -121,3 +121,7 @@ We've just scratched the surface of iOS this semester - you are encouraged to ex
 Look over this list of [iOS frameworks](https://developer.apple.com/library/ios/documentation/miscellaneous/conceptual/iphoneostechoverview/iPhoneOSFrameworks/iPhoneOSFrameworks.html)
 
 * <http://www.raywenderlich.com> has many written tutorials and a few video tutorials.
+* <https://developer.apple.com/ibm/>
+* Design inspiration: <https://dribbble.com>
+* Web backend: <https://firebase.google.com>
+* Web backend: <https://glitch.com>
