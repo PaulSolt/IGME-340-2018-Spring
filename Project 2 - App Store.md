@@ -47,7 +47,7 @@ Using your Application Definition Statement as a starting point, put together th
 * **Deliverable** - Put the above in a PDF and post it to mycourses.
 * Be ready to discuss your idea in class
 
-## 3 - Prototypes(2) ##
+## 3 - Prototypes (2) ##
 
 Getting a prototype up an running as fast as possible is critical.
 
@@ -64,7 +64,7 @@ Put together the primary navigation of the App in Storyboard, and find at least 
 	* Depth - it should be a vibrant and life-like experience, and people should not get "lost" or be confused about what state the app is in.
 * Uses Frameworks and/or methods of those frameworks that go well beyond what we've done in class this semester.
 * Meets course coding standards (see below)
-* Install on iOS hardware and bring to class on due date
+* Install on iOS hardware and bring to class on due date to present it to class (Final Exam)
 
 ## Coding Standards ##
 
@@ -107,10 +107,10 @@ Put together the primary navigation of the App in Storyboard, and find at least 
 
 ## CheckPoints
 
-1. Team member name(s), idea, and proposal due start of class Thursday 4/5 (week 11) - post to mycourses dropbox. 15% deduction from final project 3 grade if not done.
-2. Working Prototype #1 due start of class Tuesday 4/10 (week 12) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% of off your final project 3 grade if not done.
-3. Working Prototype #2 due start of class Tuesday 4/17 (week 13) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% deduction from final project 3 grade if not done.
-4. Final Version Due Finals Week during the scheduled final exam time (Thursday) - post to mycourses dropbox with your documentation * install on iOS hardware and bring to class. Late submissions will not be accepted.
+1. Team member name(s), idea, and proposal due on Thursday 4/4 (week 11) - post to mycourses dropbox. 15% deduction from final project 3 grade if not done.
+2. Working Prototype #1 due start of class Monday 4/9 (week 12) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% of off your final project 3 grade if not done.
+3. Working Prototype #2 due start of class Monday 4/16 (week 13) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% deduction from final project 3 grade if not done.
+4. Final Version Due Finals Week during the scheduled final exam time (Thursday 5/3) - post to mycourses dropbox with your documentation * install on iOS hardware and bring to class. Late submissions will not be accepted.
 	1. **IMPORTANT**: If you borrowed an iOS device from IGM, you must return it at the time of our final meeting - and don't forget the cable. (You will get an incomplete grade until this is turned in, or resolved with the IGM department)
 
 ## Resources ##
