@@ -115,8 +115,8 @@ Put together the primary navigation of the App in Storyboard, and find at least 
 * Working Prototype #1 due start of class Tuesday 4/10 (week 12) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% of off your final project 3 grade if not done.
 * Working Prototype #2 due start of class Tuesday 4/17 (week 13) - post to mycourses dropbox - install on iOS hardware and bring to class. 15% deduction from final project 3 grade if not done.
 * Final Version Due Finals Week during the scheduled final exam time (Thursday) - post to mycourses dropbox with your documentation * install on iOS hardware and bring to class. Late submissions will not be accepted.
-
-** If you borrowed an iOS device from IGM, you must return it at the time of our final meeting - and don't forget the cable. **
+	* **IMPORTANT**: If you borrowed an iOS device from IGM, you must return it at the time of our final meeting - and don't forget the cable.
+		* You will get an incomplete grade until this is turned in, or resolved with the IGM department.
 
 ## Resources ##
 
