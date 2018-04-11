@@ -22,11 +22,6 @@ To install CocoaPods, use `sudo` in front of the command, and then type your log
 	$ sudo gem install cocoapods
 
 
-## Update CocoaPods ##
-
-	$ pod update
-
-
 ## Using Ruby to Install Cocoapods ##
 
 We're using Ruby's `gem` tool to install (or update CocoaPods). Both Sierra and High Sierra should work without any issues, here's how to check your ruby version: 
@@ -89,7 +84,9 @@ The lines started with `#` are comments, and since we're using Swift, you'll nee
 
 ## Troubleshoot Your CocoaPods
 
-Clear cached files and then try to either update, or install again if things don't work.
+Sometimes things fail, and you need to try the commands again. I find that either clearing the cache, making sure the Podfile changes are saved, and then doing an update (or an install command) fixes the problems.
+
+Clear cached files to start over
 
 		$ pod cache clear --all
 
