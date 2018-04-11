@@ -1,23 +1,33 @@
-# CocoaPods Setup #
+# CocoaPods Setup for Beginners #
 
-Why?
+Why? 
 
-Cocoapods is a system that helps you create the Xcode project (Workspace) that can include other open source projects (Networking, graphics, Auto Layout, etc.).
+Cocoapods is a system that helps you create the Xcode project (Workspace) that can include other open source projects (Networking, graphics, Auto Layout, etc.). 
 
-Manually setting up a project is a good skill to learn, but there are easier ways to get things working.
+Traditionally there has been a lot of setup to use open source projects, and to keep them up to date. Which is why Cocoapods, Carthage, and the Swift Package Manager exist. These three tools will help you download source code from public GitHub projects, and import them into your project to build your apps.
+
+Cocoapods helps you manage dependencies (open source code) that you want to leverage in your app to do something (make networking/HTTP requests easier, or animation (Facebook POP). It'll automatically change your Xcode project into a Workspace that includes any of the open source projects you request in your "Podfile".
+
+## Alternatives? ##
+
+1. You can manually setup a project by dragging in Frameworks, static libraries (libXML.a), dynamic libraries (swiftCore.dylib) ... and then setting up all the compiler paths to the right header files (.h) ... which can be a real pain to get right, and it's very error prone.
+2. You can use Carthage to pull down your dependencies, but you'll manually include the build products into your Xcode project.
+3. You can use Swift Package Manager (Xcode 9.3) for Swift Mac/Linux projects (iOS not officially supported ... yet)
+
+Let's learn how to use CocoaPods for the first time and use it to make a API request on Github.
 
 ## Install CocoaPods ##
 
 	$ gem install cocoapods
 
-If you're using the default version of Ruby on macOS, you'll need to use `sudo` for the command.
+If you're using the default version of Ruby on macOS, you'll need to use `sudo` for the command. 
 
 Otherwise, when you run the above command, it'll fail with something like this error: 
 
 	ERROR:  While executing gem ... (Gem::FilePermissionError)
     You don't have write permissions for the /Library/Ruby/Gems/2.3.0 directory.
 
-To install CocoaPods, use `sudo` in front of the command, and then type your login password to confirm. Why? This elevates the privileges of the install command, so that it can put files in the protected folder mentioned in the `/Library/Ruby/Gems` path.
+To install CocoaPods, use `sudo` in front of the command, and then type your login password to confirm. Why? This elevates the privileges of the install command, so that it can put files in the protected folder mentioned in the `/Library/Ruby/Gems` path. 
 
 	$ sudo gem install cocoapods
 
@@ -31,21 +41,41 @@ We're using Ruby's `gem` tool to install (or update CocoaPods). Both Sierra and 
 
 ## Start Using CocoaPods with AlamoFire ##
 
-AlamoFire is a helper for HTTP and web requests in Swift.
+AlamoFire is a helper for HTTP and web requests in Swift. 
 
-<https://github.com/Alamofire/Alamofire>
+<https://github.com/Alamofire/Alamofire> 
 
 1. You need an Xcode project to start. Create a project (or use an existing project)
 2. Close your Xcode project, as Cocoapods is going to make project changes.
-3. Open Terminal to the location of your Xcode project folder
-4. Type `pod init` in Terminal
+3. Open Terminal to the location of your Xcode project folder 
+4. Type `pod init` in Terminal 
 
 		$ pod init
 		
-		
-4. Open the `Podfile` in TextEdit (I prefer [TextMate](https://macromates.com))		
+5. Open the `Podfile` in TextEdit (I prefer [TextMate](https://macromates.com))		 
 
-5. Open the Podfile and edit it look like the following 
+		$ open Podfile
+
+	Or with TextMate installed:
+
+		$ mate Podfile
+
+	It'll look something like this: 
+
+		# Uncomment the next line to define a global platform for your project
+		# platform :ios, '9.0'
+		
+		target 'GithubProfile' do
+		  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+		  use_frameworks!
+		
+		  # Pods for GithubProfile
+		
+		end
+
+	The lines started with `#` are comments and since we're using Swift, you'll need `use_frameworks!` 
+
+6. Open the Podfile and change it so that it looks like:
 
 		platform :ios, '10.3'
 		use_frameworks!
@@ -54,9 +84,8 @@ AlamoFire is a helper for HTTP and web requests in Swift.
 
 		end
 
-The lines started with `#` are comments, and since we're using Swift, you'll need `use_frameworks!`
 
-6. Add AlamoFire's current version (use version 4.7 with Xcode 9.3) by adding the line `pod 'Alamofire', '~> 4.7'` inside the `target area`, see below:
+7. Add AlamoFire's current version (use version 4.7 with Xcode 9.3) by adding the line `pod 'Alamofire', '~> 4.7'` inside the `target area`, see below: 
 
 
 		platform :ios, '10.3'
@@ -66,11 +95,13 @@ The lines started with `#` are comments, and since we're using Swift, you'll nee
 		  pod 'Alamofire', '~> 4.7'
 		end
 
-6. Run CocoaPods install
+8. Run CocoaPods install (this may take time if it's your first CocoaPods install . . . )
 
 		$ pod install
 
-7. Depending on how old your CocoaPod install is, you might need to try the `update` command to get the version numbers to work. If you see an error like:
+9. Depending on how old your CocoaPod install is, you might need to try the `update` command to get the version numbers to work. 
+
+	If you see this type of error, checkout the troubleshooting tips below.
 
 		[!] CocoaPods could not find compatible versions for pod "Alamofire":
 		  In Podfile:
@@ -87,25 +118,25 @@ The lines started with `#` are comments, and since we're using Swift, you'll nee
 
 ## Troubleshoot Your CocoaPods
 
-Sometimes things fail, and you need to try the commands again. I find that either clearing the cache, making sure the Podfile changes are saved, and then doing an update (or an install command) fixes the problems.
+Sometimes things fail, and you need to try the commands again. I find that either clearing the cache, making sure the Podfile changes are saved, and then doing an update (or an install command) fixes the problems. 
 
-Clear cached files to start over
+Clear cached files to start over 
 
-		$ pod cache clear --all
+	$ pod cache clear --all
 
-Update Cocoapods
+Update Cocoapods (or try to do `pod install` again)
 
-		$ pod update
+	$ pod update
 
 ## Using Alamofire ##
 
-1. Open your Workspace file that was generated `GithubProfile.xcworkspace`
+1. Open your Workspace file that was generated `GithubProfile.xcworkspace` 
 
-2. Add the statement at the top of the "ViewController.swift" file
+2. Add the statement at the top of the "ViewController.swift" file under `import UIKit`
 
 		import Alamofire
 
-3. Create a new function
+3. Create a new function 
 
 	    func searchForUserAlamo(username: String) {
 	        
@@ -135,14 +166,29 @@ Update Cocoapods
 	        }
 	    }
 
+4. Call the function with a button press, or in your `viewDidLoad()` method.
 
+		override func viewDidLoad() {
+		    super.viewDidLoad()
+		
+		    searchForUserAlamo(username: "PaulSolt")
+		}
 
-# Resources #
+## Next Steps ##
+
+There's a lot that you can do with Alamofire, and any open source project that supports Cocoapods.
+
+Now that you have a base level understanding, dig into the documentation for Alamofire, or try a tutorial to take it to the next step. On the [Alamofire Readme](https://github.com/Alamofire/Alamofire) they list out the features that it supports.
+
+If you want to try another fun animation framework, checkout [Facebook's POP framework](https://github.com/facebook/pop) that uses Cocoapods.
+
+## Resources ##
 
 * [Getting Started with CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
 * [Alamofire](https://github.com/Alamofire/Alamofire)
-* [Alamofire Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md)
-* Checkout another Cocoapod for animations: [Pop](https://github.com/facebook/pop)
+* Read this: [Alamofire Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md)
+* Follow this [Alamofire tutorial](https://www.raywenderlich.com/147086/alamofire-tutorial-getting-started-2)
+* Checkout another Cocoapod for animations: [Pop](https://github.com/facebook/pop) 
 
 
 
