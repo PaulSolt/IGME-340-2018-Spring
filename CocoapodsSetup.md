@@ -41,6 +41,9 @@ AlamoFire is a helper for HTTP and web requests in Swift.
 4. Type `pod init` in Terminal
 
 		$ pod init
+		
+		
+4. Open the `Podfile` in TextEdit (I prefer [TextMate](https://macromates.com))		
 
 5. Open the Podfile and edit it look like the following 
 
