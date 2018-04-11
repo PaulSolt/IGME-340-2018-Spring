@@ -34,18 +34,11 @@ We're using Ruby's `gem` tool to install (or update CocoaPods). Both Sierra and 
 	$ ruby --version
 	ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
 
-## Install a AlamoFire ##
-
+## Start Using CocoaPods with AlamoFire ##
 
 AlamoFire is a helper for HTTP and web requests in Swift.
 
 <https://github.com/Alamofire/Alamofire>
-
-	pod install alamofire
-
-
-## Start Using CocoaPods ##
-
 
 1. You need an Xcode project to start. Create a project (or use an existing project)
 2. Close your Xcode project, as Cocoapods is going to make project changes.
@@ -94,25 +87,15 @@ The lines started with `#` are comments, and since we're using Swift, you'll nee
 		
 		Note: as of CocoaPods 1.0, `pod repo update` does not happen on `pod install` by default.
 
-8. Troubleshoot by running the command to clear your cache and update:
+## Troubleshoot Your CocoaPods
 
-Clear cached files
+Clear cached files and then try to either update, or install again if things don't work.
 
 		$ pod cache clear --all
 
 Update Cocoapods
 
 		$ pod update
-
-## Cleaning Cached Data ##
-
-You can clear all CocoaPod cached files with the command: 
-
-	pod cache clean --all
-
-You can clear a specific CocoaPod with the command and the name of the dependency (alamofire)
-
-	pod cache clean 'alamofire'
 
 ## Using Alamofire ##
 
@@ -159,7 +142,7 @@ You can clear a specific CocoaPod with the command and the name of the dependenc
 * [Getting Started with CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * [Alamofire Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md)
-* Checkout [Pop](https://github.com/facebook/pop)
+* Checkout another Cocoapod for animations: [Pop](https://github.com/facebook/pop)
 
 
 
