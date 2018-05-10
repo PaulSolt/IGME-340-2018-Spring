@@ -9,7 +9,7 @@ These projects were an open ended 4 week app, with the goal of making something 
 * [Home Cleaning](https://github.com/SungminPark1/Home-Cleaning) (Keep your home tidy) - Sungmin Park
 * [Happy Hour](https://github.com/PulpyPaul/Happy_Hour) (Bar tracker) - Paul DeSimone and Nick Federico
 * [iPolitical](https://github.com/Qu1kee/iPolitical/tree/frontend2) (Local Representatives in NY) Nathan Stevens and Therese Henriksson
-    * [Swift Server](https://github.com/Qu1kee/iPolitical-Backend)
+    * [Swift Server](https://github.com/Qu1kee/iPolitical-Backend) using [IBM-Swift Kitura](https://www.kitura.io)
 * [FindR](https://github.com/klairecoval/FindR-iOSApp) (Nearby map search) - Claire Koval
 * [HOTS DB Viewer](https://github.com/jps6790/hots-db-viewer) - Jordan Sullivan
 * [RIT Schedule Maker](https://github.com/nsun6145/RIT-Schedule-Maker) - Nathan Sun + Lydia Wu
